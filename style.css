@@ -1,11 +1,17 @@
+/* =========================
+   General Page Styling
+   ========================= */
 body {
     margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f2f7f4;
     color: #333;
 }
 
-/* Header */
+/* =========================
+   Header Section
+   ========================= */
 header {
     background-color: #2e8b57;
     color: white;
@@ -13,7 +19,19 @@ header {
     padding: 20px;
 }
 
-/* Navigation */
+header h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+header p {
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+/* =========================
+   Navigation Bar
+   ========================= */
 nav {
     background-color: #333;
     text-align: center;
@@ -31,64 +49,86 @@ nav a:hover {
     background-color: #2e8b57;
 }
 
-/* Content */
+/* =========================
+   Main Content Section
+   ========================= */
 section {
     max-width: 900px;
-    margin: auto;
+    margin: 20px auto;
     padding: 20px;
     background-color: white;
+    border-radius: 6px;
 }
 
-h2, h3 {
+/* =========================
+   Headings
+   ========================= */
+h2 {
     color: #2e8b57;
 }
 
-/* Table */
-table {
+/* =========================
+   Solutions Page Styling
+   ========================= */
+dl dt {
+    font-weight: bold;
+    font-size: 20px;
+    color: #2e8b57;
+    margin-top: 15px;
+}
+
+dl dd {
+    margin-left: 20px;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+/* =========================
+   Contact Form Styling
+   ========================= */
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+form label {
+    font-weight: bold;
+    color: #2e8b57;
+}
+
+input,
+textarea {
     width: 100%;
-    border-collapse: collapse;
+    padding: 8px;
+    margin-top: 6px;
+    border: 1px solid #999;
+    border-radius: 4px;
 }
 
-table th, table td {
-    border: 1px solid #333;
-    padding: 10px;
-    text-align: center;
+textarea {
+    height: 100px;
 }
 
-table th {
+input[type="submit"] {
+    margin-top: 12px;
     background-color: #2e8b57;
     color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
 }
 
-/* Footer */
+input[type="submit"]:hover {
+    background-color: #246b45;
+}
+
+/* =========================
+   Footer Section
+   ========================= */
 footer {
     background-color: #333;
     color: white;
     text-align: center;
     padding: 10px;
     margin-top: 20px;
-}
-/* =========================
-   About Page – Make Reduce/Re-use/Recycle Bold
-   ========================= */
-dl dt {
-    font-weight: bold;
-    font-size: 20px;
-    margin-top: 15px;
-    color: #2e8b57;
-}
-
-dl dd {
-    margin-left: 20px;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-/* =========================
-   Contact Page – Bold Labels
-   ========================= */
-form label {
-    font-weight: bold;
-    font-size: 16px;
-    color: #2e8b57;
 }
