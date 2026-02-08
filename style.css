@@ -68,3 +68,27 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+/* =========================
+   About Page – Make Reduce/Re-use/Recycle Bold
+   ========================= */
+dl dt {
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 15px;
+    color: #2e8b57;
+}
+
+dl dd {
+    margin-left: 20px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* =========================
+   Contact Page – Bold Labels
+   ========================= */
+form label {
+    font-weight: bold;
+    font-size: 16px;
+    color: #2e8b57;
+}
