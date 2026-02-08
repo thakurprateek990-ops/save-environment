@@ -1,17 +1,11 @@
-/* =========================
-   General Page Styling
-   ========================= */
 body {
     margin: 0;
-    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f2f7f4;
     color: #333;
 }
 
-/* =========================
-   Header Section
-   ========================= */
+/* Header */
 header {
     background-color: #2e8b57;
     color: white;
@@ -29,9 +23,7 @@ header p {
     font-size: 18px;
 }
 
-/* =========================
-   Navigation Bar
-   ========================= */
+/* Navigation */
 nav {
     background-color: #333;
     text-align: center;
@@ -49,9 +41,7 @@ nav a:hover {
     background-color: #2e8b57;
 }
 
-/* =========================
-   Main Content Section
-   ========================= */
+/* Section */
 section {
     max-width: 900px;
     margin: 20px auto;
@@ -60,16 +50,12 @@ section {
     border-radius: 6px;
 }
 
-/* =========================
-   Headings
-   ========================= */
+/* Headings */
 h2 {
     color: #2e8b57;
 }
 
-/* =========================
-   Solutions Page Styling
-   ========================= */
+/* Solutions */
 dl dt {
     font-weight: bold;
     font-size: 20px;
@@ -80,12 +66,9 @@ dl dt {
 dl dd {
     margin-left: 20px;
     margin-bottom: 12px;
-    font-size: 16px;
 }
 
-/* =========================
-   Contact Form Styling
-   ========================= */
+/* Form */
 form {
     max-width: 500px;
     margin: auto;
@@ -96,8 +79,7 @@ form label {
     color: #2e8b57;
 }
 
-input,
-textarea {
+input, textarea {
     width: 100%;
     padding: 8px;
     margin-top: 6px;
@@ -122,9 +104,7 @@ input[type="submit"]:hover {
     background-color: #246b45;
 }
 
-/* =========================
-   Footer Section
-   ========================= */
+/* Footer */
 footer {
     background-color: #333;
     color: white;
